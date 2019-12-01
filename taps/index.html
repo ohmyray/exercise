@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tap</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="items">
+            <div class="item active">001</div>
+            <div class="item">002</div>
+            <div class="item">003</div>
+            <div class="item">004</div>
+            <div class="item">005</div>
+        </div>
+        <div class="taps">
+            <div class="tap show">Marvel Cinematic Universe</div>
+            <div class="tap">Avengers</div>
+            <div class="tap">I’m</div>
+            <div class="tap">Iron</div>
+            <div class="tap">Man</div>
+        </div>
+    </div>
+</body>
+<script src="./js/tap.js"></script>
+<script>
+    // 调用
+    let tap = new Tap();
+    tap.autoPlay();
+</script>
+
+</html>

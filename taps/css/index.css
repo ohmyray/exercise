@@ -1,0 +1,44 @@
+.box {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: thistle;
+  border-radius: 40px;
+  color: cornflowerblue;
+}
+
+.tap {
+  margin-top: 10px;
+  height: 600px;
+  width: 600px;
+  border: 1px solid #cfcfcf;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cornflowerblue;
+  font-size: 34px;
+  display: none;
+}
+
+.active {
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+
+.show {
+  display: flex;
+}
